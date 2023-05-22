@@ -1,0 +1,155 @@
+/* geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body::before{
+    background-image: url(wp12110749-marvel-pc-4k-wallpapers.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    top: 0px;
+    left: 0px;
+    filter: brightness(70%) blur(0.7px);
+    z-index: -1;
+}
+
+/* formulário */
+.container {
+    width: 90%;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 100px;
+    position: relative;
+}
+
+.form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #ffffffa5;
+    border-radius: 10px;
+}
+
+.form-header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #08558b;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.input-box input {
+    margin: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #08558b;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.90rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.62rem;
+    padding: 0 0 0.5rem;
+} 
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-group input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+/* botão continuar */
+
+.continue-button button {
+    width: 60%;
+    margin-top: 1.5rem;
+    border: none;
+    padding: 0.62rem;
+    border-radius: 5px;
+    background-color: #08558b;
+}
+
+.continue-button button:hover {
+    background-color: #1b223c;
+    transition: .5s;
+    box-shadow: 2px 2px 2px #ffffffbe;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+

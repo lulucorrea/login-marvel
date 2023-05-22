@@ -1,0 +1,98 @@
+/* geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    top: 0px;
+    left: 0px;
+    background-image: url(wp4313713-avengers-desktop-4k-wallpapers.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    filter: brightness(30%) blur(1px);
+    z-index: -1;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 20px 20px;
+}
+
+/* botão continuar */
+
+.continue-button button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 155%;
+    border: none;
+    background-color: #08558b;
+    padding: 0.62rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.continue-button button:hover {
+    background-color: #1b223c;
+    transition: .5s;
+    box-shadow: 2px 2px 2px #ffffffbe;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* texto*/
+
+.text {
+    color: #ffffff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+    font-variant: small-caps;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    padding-top: 20px;
+    font-weight:bold;
+    font-size: x-large;
+}
+
+h3 {
+    padding-top: 5px;
+    font-size: large;
+}
+
+.signature {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: x-large;
+}

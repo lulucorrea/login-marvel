@@ -1,0 +1,67 @@
+/* geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* texto */
+
+.text {
+    color: #000000;
+    size: 40px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+/* botão continuar */
+
+.continue-button button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 150%;
+    border: none;
+    background-color: #08558b;
+    padding: 0.62rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.continue-button button:hover {
+    background-color: #1b223c;
+    transition: .5s;
+    box-shadow: 2px 2px 2px #323232;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}

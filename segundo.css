@@ -1,0 +1,133 @@
+/* geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body::before{
+    background-image: url(wp7618442-avengers-4k-pc-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    top: 0px;
+    left: 0px;
+    filter: brightness(70%) blur(1px);
+    z-index: -1;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.forgot-pass, label {
+    font-size: 1rem; 
+}
+
+/* container login */
+
+#login-container{
+    position: relative;
+    background-color: #ffffff95;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 15vh;
+    border-radius: 10px;
+    text-align: center;
+    background-position-y: center;
+}
+
+.input-box input {
+    margin: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #08558b;
+}
+
+/* formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+
+.forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+/* botão login */
+
+.login-button button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: #08558b;
+    padding: 0.62rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.login-button button:hover {
+    background-color: #1b223c;
+    transition: .5s;
+    box-shadow: 2px 2px 2px #ffffffbe;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* resgitrar */
+
+#register-container p {
+    margin-bottom: 10px;
+}

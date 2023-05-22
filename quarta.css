@@ -1,0 +1,143 @@
+/* geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body::before {
+    background-image: url(wp3238111-avengers-4k-pc-wallpapers.jpg);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    top: 0px;
+    left: 0px;
+    filter: brightness(40%) blur(1px);
+    z-index: -1;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 20px 20px;
+    margin-top: 40px;
+}
+
+/* botão fechar */
+
+.close button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 250px;
+    border: none;
+    background-color: #08558b;
+    padding: 0.62rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.close button:hover {
+    background-color: #1b223c;
+    transition: .5s;
+    box-shadow: 2px 2px 2px #ffffffbe;
+}
+
+.close button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* botão return */
+.return button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    border: none;
+    background-color: #08558b;
+    padding: 0.62rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.return button:hover {
+    background-color: #1b223c;
+    transition: .5s;
+    box-shadow: 2px 2px 2px #ffffffbe;
+}
+
+.return button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* texto */
+
+.text  {
+    color: #fff;
+    size: 40px;
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+    font-variant: small-caps;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    padding-top: 20px;
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.signature {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: x-large;
+}
+
+.return {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    size: 40px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+p{
+    margin-top: 15px;
+    font-size:medium;
+}
